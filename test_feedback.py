@@ -18,7 +18,7 @@ try:
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     print("Browser opened")
 
-    driver.get("file:///Users/shlokvij/DevOpsCA2/feedback.html")
+    driver.get("file:///Users/shlokvij/DevOpsCA2/index.html")
     print("Page opened")
 
     wait = WebDriverWait(driver, 20)
